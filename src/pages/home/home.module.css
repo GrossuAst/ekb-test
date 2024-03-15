@@ -1,0 +1,16 @@
+.buttonPace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table {
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #C5C5C5;
+    border-radius: 4px;
+    width: 1090px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #777777;
+}

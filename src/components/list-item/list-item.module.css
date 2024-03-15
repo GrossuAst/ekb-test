@@ -1,0 +1,65 @@
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.tr {
+    width: 1089px;
+    display: flex;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.tr:last-child {
+    border-bottom: none;
+}
+
+.tooltipCell {
+    position: relative;
+}
+
+.td {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    border-right: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    padding: 10.5px;
+    display: flex;
+    align-items: center;
+}
+
+.td:first-child {
+    width: 43px;
+}
+
+.td:nth-child(2) {
+    width: 214px;
+}
+
+.td:nth-child(3) {
+    width: 272px;
+}
+
+.td:nth-child(4) {
+    width: 235px;
+}
+
+.td:nth-child(5) {
+    width: 188px;
+}
+
+.td:nth-child(6) {
+    width: 40px;
+}
+
+.td:last-child {
+    width: 98px;
+    border-right: none;
+    display: flex;
+    justify-content: space-around;
+}
